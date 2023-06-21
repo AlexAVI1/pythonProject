@@ -63,5 +63,4 @@
 # #     event_obj.init_from_dict(event)
 # #     print(event_obj.timestamp)
 
-round(1/3, 2)
 
