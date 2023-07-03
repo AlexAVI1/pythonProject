@@ -6,7 +6,7 @@ class APIException(Exception):
     pass
 class CryptoConverter:
     @staticmethod
-    def convert(base: str, quote: str, amount: str):
+    def get_price(base: str, quote: str, amount: str):
 
         if quote == base:
             raise APIException(f'Невозможно перевести одинаковые валюты {base}.')
